@@ -1,0 +1,93 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationStyle": "custom",
+        "usingComponents": {
+          "van-notice-bar": "/wxcomponents/vant/dist/notice-bar/index",
+          "van-icon": "/wxcomponents/vant/dist/icon/index",
+          "van-button": "/wxcomponents/vant/dist/button/index",
+          "van-overlay": "/wxcomponents/vant/dist/overlay/index",
+          "van-toast": "/wxcomponents/vant/dist/toast/index",
+          "van-dialog": "/wxcomponents/vant/dist/dialog/index",
+          "fruit-machine": "/wxcomponents/marketing-games/fruit-machine/index"
+        }
+      }
+    },
+    {
+      "path": "pages/equity/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#172e58"
+      }
+    },
+    {
+      "path": "pages/personal-center/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#172e58"
+      }
+    },
+    {
+      "path": "pages/invitation-record/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#172e58",
+        "usingComponents": {
+          "van-divider": "/wxcomponents/vant/dist/divider/index"
+        }
+      }
+    },
+    {
+      "path": "pages/authorize-phone/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    },
+    {
+      "path": "pages/authorize-info/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    },
+    {
+      "path": "pages/authorize-location/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8",
+    "onReachBottomDistance": 160
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#BC1932",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/tab/tab-01.png",
+        "selectedIconPath": "static/tab/tab-01-on.png",
+        "text": "活动首页"
+      },
+      {
+        "pagePath": "pages/personal-center/index",
+        "iconPath": "static/tab/tab-02.png",
+        "selectedIconPath": "static/tab/tab-02-on.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}
